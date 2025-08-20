@@ -12,7 +12,7 @@ export const App = () => {
        <main>
            <Navbar></Navbar>
            <Hero></Hero>
-           <div className='h-dvh bg-black'></div>
+
        </main>
     )
 }
