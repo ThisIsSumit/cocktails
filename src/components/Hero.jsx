@@ -71,7 +71,7 @@ export function Hero() {
     },[])
     return (
         <>
-            <section id="hero" className='noisy '>
+            <section id="hero" className='noisy p-10 '>
                 <h1 className='title'>MOJITO</h1>
                 <img src="/images/hero-left-leaf.png"
                     alt="left-leaf"

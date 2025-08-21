@@ -22,7 +22,7 @@ export const Cocktails = () => {
 
     });
     return (
-        <section id="cocktails" className="noisy">
+        <section id="cocktails" className="noisy p-10">
             <img src='/images/cocktail-left-leaf.png'
                  alt='left-leaf' className='left-leaf'
                  id="c-left-leaf"/>

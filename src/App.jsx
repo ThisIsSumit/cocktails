@@ -5,15 +5,18 @@ import {useGSAP} from "@gsap/react";
 import {Navbar} from "./components/Navbar.jsx";
 import {Hero} from "./components/Hero.jsx";
 import {Cocktails} from "./components/Cocktails.jsx";
+import {About} from "./components/About.jsx";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 export const App = () => {
     return (
        <main>
+
            <Navbar></Navbar>
            <Hero></Hero>
            <Cocktails></Cocktails>
+           <About></About>
 
        </main>
     )
